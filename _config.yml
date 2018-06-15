@@ -2,9 +2,12 @@ url: https://localflavor.github.io
 baseurl: ""
 
 # Site settings
-title: Local Flavor Marketing Group
+company_name: Local Flavor Marketing Group, LLC
+title: Design with Intention
 email: anne@localflavormarketing.com
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+logo: img/lf_logo.png
+medallion: img/lf_medallion.png
 
 
 # Team names, titles and social links

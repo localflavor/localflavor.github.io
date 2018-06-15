@@ -4,6 +4,48 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+ :root {
+  --brand-yellow: #FED136;
+  --brand-purple: #a4079c;
+  --light-gray: #f7f7f7;
+  --medium-gray: #EBEBEB;
+}
+
+.brand-box {
+    width: 200px;
+    height: 50px;
+    margin-top: -10px;
+}
+
+.brand-img-box {
+    width: 25%;
+    float: left;
+    margin-right: 10px;
+}
+
+.brand-img-box img {
+    width: 100%;
+}
+
+.brand-text {
+    margin: 0px;
+    padding: 0;
+    color: white;
+    line-height: 110%;
+}
+
+.brand-line-1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+}
+
+.brand-line-2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 8px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
 body {
     overflow-x: hidden;
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
