@@ -9,6 +9,9 @@ description: "Write an awesome description for your new site here. You can edit 
 logo: img/lf_logo.png
 medallion: img/lf_medallion.png
 
+collections:
+  testimonials:
+    output: true
 
 # Team names, titles and social links
 people:

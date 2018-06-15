@@ -104,7 +104,7 @@ h6 {
 }
 
 .bg-light-gray {
-    background-color: #f7f7f7;
+    background-color: var(--light-gray);
 }
 
 .bg-darkest-gray {
@@ -467,6 +467,22 @@ section h3.section-subheading {
 #portfolio * {
     z-index: 2;
 }
+
+.testimonial {
+  background: var(--light-gray);
+  border-left: 10px solid var(--medium-gray);
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+
+.testimonial .client {
+    color: var(--brand-purple);
+    font-style: italic;
+    font-size: 70%;
+    /*font-weight: bold;*/
+    text-align: right;
+}
+
 
 @media(min-width:767px) {
     #portfolio .portfolio-item {
