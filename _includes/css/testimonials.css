@@ -1,0 +1,16 @@
+/* Testimonials */
+
+.testimonial {
+  background: #{{ site.data.template.color.light-gray }};
+  border-left: 10px solid #{{ site.data.template.color.medium-gray }};
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+
+.testimonial .client {
+    color: #{{ site.data.template.color.brand-purple }};    
+    font-style: italic;
+    font-size: 70%;
+    /*font-weight: bold;*/
+    text-align: right;
+}
