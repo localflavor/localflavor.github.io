@@ -10,7 +10,11 @@ logo: /img/lf_logo.png
 medallion: /img/lf_medallion.png
 
 collections:
+  projects:
+    output: true
   testimonials:
+    output: true
+  services:
     output: true
 
 # Team names, titles and social links
