@@ -62,7 +62,7 @@ h6 {
 }
 
 .bg-light-gray {
-    background-color: var(--light-gray);
+    background-color: #{{ site.data.template.color.light-gray }};
 }
 
 .bg-darkest-gray {
@@ -857,9 +857,13 @@ ul.social-buttons li a:active {
     margin-bottom: 30px;
 }
 
-.portfolio-modal .modal-content img {
-    margin-bottom: 30px;
+.portfolio-modal .modal-body p {
+  font-size: 120%;
 }
+
+.portfolio-modal .modal-content img {
+    margin-bottom: 40px;
+  }
 
 .portfolio-modal .close-modal {
     position: absolute;

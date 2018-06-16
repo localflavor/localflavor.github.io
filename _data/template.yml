@@ -1,13 +1,13 @@
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: fed136
-  secondary: fec503
+  primary: FED136
+  secondary: FEC503
   secondary-dark: 333
   muted: 777
-  brand-yellow: FED136;
-  brand-purple: a4079c;
-  light-gray: f7f7f7;
-  medium-gray: EBEBEB;
+  brand-yellow: FED136
+  brand-purple: A4079C
+  light-gray: F7F7F7
+  medium-gray: EBEBEB
 
 # Font Families
 font:
