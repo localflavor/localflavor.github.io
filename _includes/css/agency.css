@@ -769,7 +769,10 @@ section#contact .text-danger {
 
 
 /* Post Layout */
-
+.post-content img {
+  width: 100%;
+  max-width: 600px;
+}
 
 /* Footer Layout */
 
