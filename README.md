@@ -1,5 +1,7 @@
 # Local Flavor Marketing Group Site
 
+See it live at [localflavor.github.io](https://localflavor.github.io)
+
 All content is the property of Local Flavor Marketing Group and is subject to copyright.
 
 ## Theme Information
