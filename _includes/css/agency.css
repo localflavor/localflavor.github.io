@@ -4,12 +4,6 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
- :root {
-  --brand-yellow: #FED136;
-  --brand-purple: #a4079c;
-  --light-gray: #f7f7f7;
-  --medium-gray: #EBEBEB;
-}
 
 .brand-box {
     width: 200px;
