@@ -4,42 +4,6 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
-
-.brand-box {
-    width: 200px;
-    height: 50px;
-    margin-top: -10px;
-}
-
-.brand-img-box {
-    width: 25%;
-    float: left;
-    margin-right: 10px;
-}
-
-.brand-img-box img {
-    width: 100%;
-}
-
-.brand-text {
-    margin: 0px;
-    padding: 0;
-    color: white;
-    line-height: 110%;
-}
-
-.brand-line-1 {
-    font-family: 'Dancing Script', cursive;
-    font-size: 30px;
-}
-
-.brand-line-2 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 8px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-}
-
 body {
     overflow-x: hidden;
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -204,6 +168,42 @@ fieldset[disabled] .btn-xl.active {
 .btn-xl .badge {
     color: #{{ site.data.template.color.primary }};
     background-color: #fff;
+}
+
+/* Navbar */
+.brand-box {
+    width: 200px;
+    height: 50px;
+    margin-top: -10px;
+}
+
+.brand-img-box {
+    width: 25%;
+    float: left;
+    margin-right: 10px;
+}
+
+.brand-img-box img {
+    width: 100%;
+}
+
+.brand-text {
+    margin: 0px;
+    padding: 0;
+    color: white;
+    line-height: 110%;
+}
+
+.brand-line-1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+}
+
+.brand-line-2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 8px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 .navbar-default {
@@ -464,21 +464,8 @@ section h3.section-subheading {
     z-index: 2;
 }
 
-.testimonial {
-  background: var(--light-gray);
-  border-left: 10px solid var(--medium-gray);
-  padding: 0.5em 10px;
-  quotes: "\201C""\201D""\2018""\2019";
-}
 
-.testimonial .client {
-    color: var(--brand-purple);
-    font-style: italic;
-    font-size: 70%;
-    /*font-weight: bold;*/
-    text-align: right;
-}
-
+/* About Section Timeline */
 
 @media(min-width:767px) {
     #portfolio .portfolio-item {
@@ -710,6 +697,8 @@ aside.clients img {
     margin: 50px auto;
 }
 
+
+/* Contact Form */
 section#contact {
     background-color: #222;
     background-image: url('{{ site.baseurl }}/img/map-image.png');
@@ -774,6 +763,15 @@ section#contact:-ms-input-placeholder {
 section#contact .text-danger {
     color: #e74c3c;
 }
+
+/* Page Layout */
+#page {margin-top: 100px;}
+
+
+/* Post Layout */
+
+
+/* Footer Layout */
 
 footer {
     padding: 25px 0;
