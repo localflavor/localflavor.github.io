@@ -5,7 +5,7 @@ baseurl: ""
 company_name: Local Flavor Marketing Group, LLC
 title: Design with Intention
 email: anne@localflavormarketing.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+description: "Local Flavor Marketing Group is a small shop that helps you to tell the world your story and to give a voice to your authentic self."
 logo: /img/lf_logo.png
 medallion: /img/lf_medallion.png
 
@@ -19,38 +19,31 @@ collections:
 
 # Team names, titles and social links
 people:
-- name: Kay Garland
-  pic: 1
-  position: Lead Designer
+- name: Anne Richardson
+  pic: anne
+  position: Designer, Software Engineer
   social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
+    - icon: fab fa-github
+      url: https://github.com/lortza
+    - icon: fab fa-stack-overflow
+      url: https://stackoverflow.com/users/5009528/richardson?tab=profile
+    - icon: fab fa-linkedin-in
+      url: https://www.linkedin.com/in/localflavor/
+    - icon: fal fa-link
+      url:  https://lortza.github.io
 
-- name: Larry Parker
-  pic: 2
-  position: Lead Marketer
+- name: Mike Vallano
+  pic: mike
+  position: SEO/SEM, Software Engineer
   social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: linkedin
-      url: #
-
-- name: Diana Petersen
-  pic: 3
-  position: Lead Developer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: google-plus
-      url: #
+    - icon: fab fa-github
+      url: https://github.com/mikevallano
+    - icon: fab fa-twitter
+      url: https://twitter.com/mikevallano?lang=en
+    - icon: fab fa-linkedin-in
+      url: https://www.linkedin.com/in/mikevallano
+    - icon: fal fa-link
+      url:  http://mikevallano.com
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
