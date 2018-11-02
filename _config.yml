@@ -21,20 +21,20 @@ collections:
 people:
 - name: Anne Richardson
   pic: anne
-  position: Designer, Software Engineer
+  position: Software Engineer, Graphic Designer
   social:
     - icon: fab fa-github
       url: https://github.com/lortza
     - icon: fab fa-stack-overflow
       url: https://stackoverflow.com/users/5009528/richardson?tab=profile
     - icon: fab fa-linkedin-in
-      url: https://www.linkedin.com/in/localflavor/
+      url: https://www.linkedin.com/in/richardsonae/
     - icon: fal fa-link
       url:  https://lortza.github.io
 
 - name: Mike Vallano
   pic: mike
-  position: SEO/SEM, Software Engineer
+  position: Software Engineer, SEO/SEM
   social:
     - icon: fab fa-github
       url: https://github.com/mikevallano
