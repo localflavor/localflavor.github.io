@@ -31,6 +31,8 @@ people:
       url: https://www.linkedin.com/in/richardsonae/
     - icon: fal fa-link
       url:  https://lortza.github.io
+    - icon: fab fa-twitter
+      url: https://twitter.com/localflavormktg?lang=en
 
 - name: Mike Vallano
   pic: mike
